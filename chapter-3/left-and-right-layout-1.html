@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .wrapper {
+        width: 90vw;
+        height: 40vh;
+        border: 2px dashed #ddd;
+      }
+
+      .wrapper:after {
+        display: block;
+        content: "";
+        clear: both;
+      }
+
+      .left {
+        float: left;
+        width: 25%;
+        height: 100%;
+        background-color: lightgreen;
+      }
+
+      .right {
+        float: right;
+        width: 70%;
+        height: 100%;
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">侧边栏</div>
+      <div class="right">主区域</div>
+    </div>
+
+    <br /><br /><br />
+    <div>
+      <a href="/">返回首页导航</a>
+    </div>
+  </body>
+</html>
